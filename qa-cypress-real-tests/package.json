@@ -1,0 +1,14 @@
+{
+  "name": "qa-cypress-real-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio de QA com testes reais (UI + API) usando Cypress.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
